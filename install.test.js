@@ -1,7 +1,3 @@
-const fs = require('fs');
-const path = require('path');
-const os = require('os');
-
 // Mock modules
 jest.mock('fs');
 jest.mock('os');
@@ -10,8 +6,17 @@ describe('install.js', () => {
   let consoleLogSpy;
   let consoleErrorSpy;
   let processExitSpy;
+  let fs;
+  let os;
 
   beforeEach(() => {
+    // Reset modules to clear require cache
+    jest.resetModules();
+
+    // Re-require the mocked modules
+    fs = require('fs');
+    os = require('os');
+
     // Clear all mocks before each test
     jest.clearAllMocks();
 
