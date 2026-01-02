@@ -19,13 +19,21 @@ npm install -g opencode-ai
 
 ## Installation
 
-Install the agent globally or in your project:
+Install the agent globally:
+
+```bash
+npm install -g @everydaydevops/opencode-typescript-linting
+```
+
+The postinstall script will automatically copy the agent configuration to `~/.config/opencode/agent/typescript-linting.md`.
+
+Install the agent just in a project:
 
 ```bash
 npm install @everydaydevops/opencode-typescript-linting
 ```
 
-The postinstall script will automatically copy the agent configuration to `~/.config/opencode/agent/typescript-linting.md`.
+The postinstall script will automatically copy the agent configuration to `.opencode/agent/typescript-linting.md`.
 
 ## Usage
 

@@ -1,6 +1,6 @@
 {
   "name": "@everydaydevops/opencode-typescript-linting",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "OpenCode agent for implementing TypeScript linting and code formatting following Everyday DevOps best practices",
   "keywords": [
     "opencode",
@@ -22,6 +22,7 @@
     "url": "https://github.com/everydaydevopsio/opencode-typescript-linting-agent/issues"
   },
   "files": [
+    "install.js",
     "agent/",
     "README.md",
     "LICENSE"
