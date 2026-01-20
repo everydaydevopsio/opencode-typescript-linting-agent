@@ -1,5 +1,7 @@
 # @everydaydevops/opencode-typescript-linting
 
+> **Archived:** This repository has been archived at v1.0. Development has moved to [https://github.com/everydaydevopsio/typescript-linting-agent](https://github.com/everydaydevopsio/typescript-linting-agent) for v2.0+ with support for Cursor and Claude.
+
 [![npm version](https://badge.fury.io/js/@everydaydevops%2Fopencode-typescript-linting.svg)](https://www.npmjs.com/package/@everydaydevops/opencode-typescript-linting)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
